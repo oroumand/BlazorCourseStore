@@ -14,6 +14,7 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\..\..\1.Core\CourseStore.Core.Contracts\CourseStore.Core.Contracts.csproj" />
 	  <ProjectReference Include="..\..\..\1.Core\CourseStore.Core.Domain\CourseStore.Core.Domain.csproj" />
+	  <ProjectReference Include="..\..\..\1.Core\CourseStore.Core.Resources\CourseStore.Core.Resources.csproj" />
 	</ItemGroup>
 
 </Project>
