@@ -9,7 +9,7 @@ public class CourseStoreCommandDbContextFactory : IDesignTimeDbContextFactory<Co
     {
         var builder = new DbContextOptionsBuilder<CourseStoreCommandDbContext>();
 
-        builder.UseSqlServer("Server =.; Database=CourseStoreDb;User Id = ;Password = ; MultipleActiveResultSets = true; Encrypt = false");
+        builder.UseSqlServer("Server =.,1433; Database=CourseStoreDb;User Id = sa;Password=55MS@B1M3gary; MultipleActiveResultSets=true; Encrypt = false");
 
         return new CourseStoreCommandDbContext(builder.Options);
     }
