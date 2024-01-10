@@ -2,7 +2,7 @@
 using FluentValidation;
 using Zamin.Extensions.Translations.Abstractions;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Commands.CreateTeachers
+namespace CourseStore.Core.RequestResponse.Courses.Commands.CreateCourses
 {
     public class CreateCourseValidator : AbstractValidator<CreateCourseCommand>
     {

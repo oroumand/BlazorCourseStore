@@ -28,6 +28,7 @@ namespace CourseStore.Core.Domain.Courses.Entities
             Price = command.Price;
             Description = command.Description;
             ImageUrl = command.ImageUrl;
+            TeacherId = command.TeacherId;
             AddEvent(new CourseCreated(BusinessId.Value, Title.Value, Description.Value, ImageUrl,Price.Value));
         }
         #endregion

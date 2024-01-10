@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
-namespace SSO.Management.Infra.Data.Sql.Queries.Users.Configs;
+namespace CourseStore.Infra.Data.Sql.Queries.Teachers.Configs;
 
 public class TeacherConfig : IEntityTypeConfiguration<Teacher>
 {

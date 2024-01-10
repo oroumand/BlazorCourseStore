@@ -2,7 +2,7 @@
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.Core.RequestResponse.Queries;
 
-namespace CourseStore.Core.Contracts.Teachers.Commands
+namespace CourseStore.Core.Contracts.Teachers.Queries
 {
     public interface ITeacherQueryRepository : IQueryRepository
     {

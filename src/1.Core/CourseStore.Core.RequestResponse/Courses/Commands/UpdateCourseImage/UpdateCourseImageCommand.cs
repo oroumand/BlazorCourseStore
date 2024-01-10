@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.RequestResponse.Commands;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Commands.UpdateImage
+namespace CourseStore.Core.RequestResponse.Courses.Commands.UpdateCourseImage
 {
     public class UpdateCourseImageCommand : ICommand
     {

@@ -1,4 +1,4 @@
-﻿namespace CourseStore.Core.RequestResponse.Teachers.Queries.GetPagedFilter
+﻿namespace CourseStore.Core.RequestResponse.Courses.Queries.GetPagedFilter
 {
     public class CourseListQr
     {

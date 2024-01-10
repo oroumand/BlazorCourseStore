@@ -1,4 +1,4 @@
-﻿using CourseStore.Core.Contracts.Teachers.Commands;
+﻿using CourseStore.Core.Contracts.Teachers.Queries;
 using CourseStore.Core.RequestResponse.Teachers.Queries.GetPagedFilter;
 using CourseStore.Infra.Data.Sql.Queries.Common;
 using System;

@@ -1,10 +1,10 @@
-﻿using CourseStore.Core.Contracts.Teachers.Commands;
+﻿using CourseStore.Core.Contracts.Teachers.Queries;
 using CourseStore.Core.RequestResponse.Teachers.Queries.GetPagedFilter;
 using Zamin.Core.ApplicationServices.Queries;
 using Zamin.Core.RequestResponse.Queries;
 using Zamin.Utilities;
 
-namespace SSO.Management.Core.ApplicationService.Users.Queries.GetPagedFilter;
+namespace CourseStore.Core.ApplicationService.Teachers.Queries.GetPagedFilter;
 
 public sealed class GetTeacherPagedFilterHandler : QueryHandler<GetTeacherPagedFilterQuery, PagedData<TeacherListQr>>
 {
