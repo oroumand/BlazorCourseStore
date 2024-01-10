@@ -2,7 +2,7 @@
 
 namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateImageUrl
 {
-    public class UpdateImageUrlCommand : ICommand
+    public class UpdateImageCommand : ICommand
     {
         public int TeacherId { get; set; }
         public string ImageUrl { get; set; }

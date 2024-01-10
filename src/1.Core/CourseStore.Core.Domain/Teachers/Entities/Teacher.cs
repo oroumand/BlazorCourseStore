@@ -38,15 +38,15 @@ namespace CourseStore.Core.Domain.Teachers.Entities
             AddEvent(new TeacherRenamed(BusinessId.Value, FirstName.Value, LastName.Value));
         }
 
-        public void Handle(ChangeDescriptionParameter command)
+        public void Handle(UpdateDescriptionParameter command)
         {
             Description = command.Description;
-            AddEvent(new TeacherDescriptionChanged(BusinessId.Value, Description.Value));
+            AddEvent(new TeacherDescriptionUpdated(BusinessId.Value, Description.Value));
         }
-        public void Handle(ChangeImageParameter command)
+        public void Handle(UpdateImageParameter command)
         {
             Description = command.ImageUrl;
-            AddEvent(new TeacherImageChanged(BusinessId.Value, ImageUrl));
+            AddEvent(new TeacherImageUpdated(BusinessId.Value, ImageUrl));
         }
         #endregion
 

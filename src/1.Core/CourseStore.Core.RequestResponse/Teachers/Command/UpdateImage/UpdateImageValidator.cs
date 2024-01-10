@@ -4,10 +4,10 @@ using Zamin.Extensions.Translations.Abstractions;
 
 namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateImageUrl
 {
-    internal class UpdateImageUrlValidator : AbstractValidator<UpdateImageUrlCommand>
+    internal class UpdateImageValidator : AbstractValidator<UpdateImageCommand>
     {
 
-        public UpdateImageUrlValidator(ITranslator translator)
+        public UpdateImageValidator(ITranslator translator)
         {
             RuleFor(x => x.TeacherId)
                .Cascade(CascadeMode.Stop)
