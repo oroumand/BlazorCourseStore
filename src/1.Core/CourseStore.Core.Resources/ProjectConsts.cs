@@ -5,6 +5,7 @@ public sealed class ProjectConsts
     public const byte ID_MIN_VALUE = 1;
     public const byte ID_MIN_LENGTH = 2;
     public const byte ID_MAX_LENGTH = 200;
+    public const byte PRICE_MIN_VALUE = 0;
 
     public const byte NAME_MIN_LENGTH = 2;
     public const byte NAME_MAX_LENGTH = 250;
