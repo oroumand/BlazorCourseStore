@@ -7,14 +7,9 @@ using Zamin.Utilities;
 
 namespace CourseStore.Core.ApplicationService.Teachers.Commands.CreateTeacher
 {
-    public class UpdateImageHandler : CommandHandler<UpdateImageCommand>
+    public class UpdateImageHandler(ZaminServices zaminServices, ITeacherCommandRepository repository) : CommandHandler<UpdateImageCommand>(zaminServices)
     {
-        private readonly ITeacherCommandRepository _repository;
-
-        public UpdateImageHandler(ZaminServices zaminServices, ITeacherCommandRepository repository) : base(zaminServices)
-        {
-            _repository = repository;
-        }
+        private readonly ITeacherCommandRepository _repository = repository;
 
         public override async Task<CommandResult> Handle(UpdateImageCommand command)
         {

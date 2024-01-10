@@ -7,14 +7,9 @@ using Zamin.Utilities;
 
 namespace CourseStore.Core.ApplicationService.Teachers.Commands.CreateTeacher
 {
-    public class UpdateDescriptionHandler : CommandHandler<UpdateDescriptionCommand>
+    public class UpdateDescriptionHandler(ZaminServices zaminServices, ITeacherCommandRepository repository) : CommandHandler<UpdateDescriptionCommand>(zaminServices)
     {
-        private readonly ITeacherCommandRepository _repository;
-
-        public UpdateDescriptionHandler(ZaminServices zaminServices, ITeacherCommandRepository repository) : base(zaminServices)
-        {
-            _repository = repository;
-        }
+        private readonly ITeacherCommandRepository _repository = repository;
 
         public override async Task<CommandResult> Handle(UpdateDescriptionCommand command)
         {
