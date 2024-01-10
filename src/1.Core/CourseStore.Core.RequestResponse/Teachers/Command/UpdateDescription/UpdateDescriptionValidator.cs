@@ -4,7 +4,7 @@ using Zamin.Extensions.Translations.Abstractions;
 
 namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateDescription
 {
-    internal class UpdateDescriptionValidator : AbstractValidator<UpdateDescriptionCommand>
+    public class UpdateDescriptionValidator : AbstractValidator<UpdateDescriptionCommand>
     {
 
         public UpdateDescriptionValidator(ITranslator translator)

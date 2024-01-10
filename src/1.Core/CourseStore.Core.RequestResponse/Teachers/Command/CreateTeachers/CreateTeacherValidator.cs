@@ -4,7 +4,7 @@ using Zamin.Extensions.Translations.Abstractions;
 
 namespace CourseStore.Core.RequestResponse.Teachers.Command.CreateTeachers
 {
-    internal class CreateTeacherValidator : AbstractValidator<CreateTeacherCommand>
+    public class CreateTeacherValidator : AbstractValidator<CreateTeacherCommand>
     {
 
         public CreateTeacherValidator(ITranslator translator)

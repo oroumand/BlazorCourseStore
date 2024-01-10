@@ -4,7 +4,7 @@ using Zamin.Extensions.Translations.Abstractions;
 
 namespace CourseStore.Core.RequestResponse.Teachers.Command.RenameTeachers
 {
-    internal class RenameTeacherValidator : AbstractValidator<RenameTeacherCommand>
+    public class RenameTeacherValidator : AbstractValidator<RenameTeacherCommand>
     {
 
         public RenameTeacherValidator(ITranslator translator)

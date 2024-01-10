@@ -4,7 +4,7 @@ using Zamin.Extensions.Translations.Abstractions;
 
 namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateImageUrl
 {
-    internal class UpdateImageValidator : AbstractValidator<UpdateImageCommand>
+    public class UpdateImageValidator : AbstractValidator<UpdateImageCommand>
     {
 
         public UpdateImageValidator(ITranslator translator)

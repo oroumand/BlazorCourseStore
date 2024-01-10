@@ -45,7 +45,7 @@ namespace CourseStore.Core.Domain.Teachers.Entities
         }
         public void Handle(UpdateImageParameter command)
         {
-            Description = command.ImageUrl;
+            ImageUrl = command.ImageUrl;
             AddEvent(new TeacherImageUpdated(BusinessId.Value, ImageUrl));
         }
         #endregion
