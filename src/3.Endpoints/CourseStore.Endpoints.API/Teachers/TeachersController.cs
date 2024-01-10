@@ -1,4 +1,4 @@
-﻿using CourseStore.Core.RequestResponse.Teachers.Command;
+﻿using CourseStore.Core.RequestResponse.Teachers.Command.CreateTeachers;
 using Microsoft.AspNetCore.Mvc;
 using Zamin.EndPoints.Web.Controllers;
 
