@@ -1,7 +1,7 @@
 ﻿using CourseStore.Core.Contracts.Teachers.Commands;
 using CourseStore.Core.Domain.Teachers.Entities;
 using CourseStore.Core.Domain.Teachers.Parameters;
-using CourseStore.Core.RequestResponse.Teachers.Command.CreateTeachers;
+using CourseStore.Core.RequestResponse.Teachers.Commands.CreateTeachers;
 using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.RequestResponse.Commands;
 using Zamin.Utilities;

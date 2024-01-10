@@ -2,7 +2,7 @@
 using FluentValidation;
 using Zamin.Extensions.Translations.Abstractions;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateDescription
+namespace CourseStore.Core.RequestResponse.Teachers.Commands.UpdateDescription
 {
     public class UpdateDescriptionValidator : AbstractValidator<UpdateDescriptionCommand>
     {

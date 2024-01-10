@@ -1,6 +1,6 @@
-﻿using CourseStore.Core.Domain.Teachers.Entities;
+﻿using CourseStore.Core.Domain.Courses.Entities;
+using CourseStore.Core.Domain.Teachers.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
 using System.Reflection;
 using Zamin.Core.Domain.Toolkits.ValueObjects;
 using Zamin.Core.Domain.ValueObjects;
@@ -13,6 +13,7 @@ public class CourseStoreCommandDbContext : BaseOutboxCommandDbContext
 {
     #region DbSets
     public DbSet<Teacher> Teachers{ get; set; }
+    public DbSet<Course> Courses { get; set; }
     #endregion
     public CourseStoreCommandDbContext(DbContextOptions<CourseStoreCommandDbContext> options) : base(options)
     {

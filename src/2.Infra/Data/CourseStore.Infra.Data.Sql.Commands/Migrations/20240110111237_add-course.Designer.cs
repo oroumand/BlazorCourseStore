@@ -5,6 +5,7 @@ using CourseStore.Infra.Data.Sql.Commands.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -12,9 +13,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CourseStore.Infra.Data.Sql.Commands.Migrations
 {
     [DbContext(typeof(CourseStoreCommandDbContext))]
-    partial class CourseStoreCommandDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240110111237_add-course")]
+    partial class addcourse
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

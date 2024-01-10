@@ -2,7 +2,7 @@
 using FluentValidation;
 using Zamin.Extensions.Translations.Abstractions;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Command.RenameTeachers
+namespace CourseStore.Core.RequestResponse.Teachers.Commands.RenameTeachers
 {
     public class RenameTeacherValidator : AbstractValidator<RenameTeacherCommand>
     {

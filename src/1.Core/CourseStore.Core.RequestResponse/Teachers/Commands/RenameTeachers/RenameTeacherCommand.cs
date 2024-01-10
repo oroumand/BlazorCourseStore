@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.RequestResponse.Commands;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Command.RenameTeachers
+namespace CourseStore.Core.RequestResponse.Teachers.Commands.RenameTeachers
 {
     public class RenameTeacherCommand : ICommand
     {

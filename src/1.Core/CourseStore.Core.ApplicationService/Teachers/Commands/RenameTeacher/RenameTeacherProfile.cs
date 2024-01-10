@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using CourseStore.Core.Domain.Teachers.Parameters;
-using CourseStore.Core.RequestResponse.Teachers.Command.RenameTeachers;
+using CourseStore.Core.RequestResponse.Teachers.Commands.RenameTeachers;
 
-namespace CourseStore.Core.ApplicationService.Teachers.Commands.CreateTeacher
+namespace CourseStore.Core.ApplicationService.Teachers.Commands.RenameTeacher
 {
     public class RenameTeacherProfile : Profile
     {

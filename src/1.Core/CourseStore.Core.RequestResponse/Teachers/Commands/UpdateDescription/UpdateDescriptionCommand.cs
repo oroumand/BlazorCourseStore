@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.RequestResponse.Commands;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateDescription
+namespace CourseStore.Core.RequestResponse.Teachers.Commands.UpdateDescription
 {
     public class UpdateDescriptionCommand : ICommand
     {

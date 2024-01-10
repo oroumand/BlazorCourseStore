@@ -15,4 +15,8 @@
 				<PackageReference Include="Zamin.Core.RequestResponse" Version="8.0.0-beta.1" />
 		</ItemGroup>
 
+		<ItemGroup>
+		  <Folder Include="Courses\" />
+		</ItemGroup>
+
 </Project>

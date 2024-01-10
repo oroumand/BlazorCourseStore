@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
 using CourseStore.Core.Domain.Teachers.Parameters;
-using CourseStore.Core.RequestResponse.Teachers.Command.UpdateDescription;
-using CourseStore.Core.RequestResponse.Teachers.Command.UpdateImageUrl;
+using CourseStore.Core.RequestResponse.Teachers.Commands.UpdateImage;
 
-namespace CourseStore.Core.ApplicationService.Teachers.Commands.CreateTeacher
+namespace CourseStore.Core.ApplicationService.Teachers.Commands.UpdateImage
 {
     public class UpdateImageProfile : Profile
     {

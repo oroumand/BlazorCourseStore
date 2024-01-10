@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.RequestResponse.Commands;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Command.CreateTeachers
+namespace CourseStore.Core.RequestResponse.Teachers.Commands.CreateTeachers
 {
     public class CreateTeacherCommand : ICommand<int>
     {

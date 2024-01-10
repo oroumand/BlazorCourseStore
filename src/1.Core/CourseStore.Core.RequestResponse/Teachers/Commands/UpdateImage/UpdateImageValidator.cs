@@ -2,7 +2,7 @@
 using FluentValidation;
 using Zamin.Extensions.Translations.Abstractions;
 
-namespace CourseStore.Core.RequestResponse.Teachers.Command.UpdateImageUrl
+namespace CourseStore.Core.RequestResponse.Teachers.Commands.UpdateImage
 {
     public class UpdateImageValidator : AbstractValidator<UpdateImageCommand>
     {
