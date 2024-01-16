@@ -7,12 +7,12 @@
 		</PropertyGroup>
 
 		<ItemGroup>
-				<ProjectReference Include="..\CourseStore.Core.Domain\CourseStore.Core.Domain.csproj" />
 				<ProjectReference Include="..\CourseStore.Core.Resources\CourseStore.Core.Resources.csproj" />
 		</ItemGroup>
 
 		<ItemGroup>
-				<PackageReference Include="Zamin.Core.RequestResponse" Version="8.0.0-beta.1" />
+				<PackageReference Include="Zamin.Core.RequestResponse" Version="8.0.0" />
+				<PackageReference Include="Zamin.Extensions.Translations.Abstractions" Version="8.0.0" />
 		</ItemGroup>
 
 </Project>
